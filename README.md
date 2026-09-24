@@ -50,29 +50,41 @@ The repository contains:
 
 ---
 
+
 ## 02 — AstraDrive BLDC/PMSM Controller
 
 **Status:** Work in Progress  
-**EDA Tool:** KiCad
+**EDA Tool:** KiCad  
+**Controller:** STM32G474RE  
+**System:** 48 V 3-phase BLDC/PMSM motor controller
 
-A 48 V 3-phase BLDC/PMSM motor-controller architecture based on an STM32G4 microcontroller.
+### Overview
 
-The design includes:
+A hardware development project for a 48 V 3-phase BLDC/PMSM motor controller, designed around an STM32G4 microcontroller and intended for applications such as robotics, AGVs, drones, and electric mobility.
 
-- STM32G474RE control
-- 3-phase MOSFET power stage
-- Gate-driver interface
+The project is being developed as a hierarchical KiCad design with dedicated functional subsystems.
+
+### Current Architecture
+
+The design currently includes:
+
+- STM32G474RE control subsystem
+- 3-phase MOSFET bridge
+- Gate-driver subsystem
 - Current sensing
 - Hall-sensor feedback
 - Encoder interface
 - DC-bus voltage sensing
 - Temperature monitoring
 - CAN-FD interface
-- OLED/UI interface
+- Display/UI interface
+- Programming/debug interface
 
-The AstraDrive design is currently under development and will be added to this portfolio as the design progresses.
+### Development Status
 
----
+The system architecture and hierarchical schematic are currently under development. PCB component placement and routing are the next stages of development.
+
+![AstraDrive System Architecture](astradrive-system-architecture.png)
 
 ## About
 
