@@ -11,6 +11,13 @@ Electronics PCB design projects developed using KiCad, covering schematic captur
 **Board Type:** 2-layer PCB  
 **Board Dimensions:** 25.05 mm × 44.05 mm  
 **Board Thickness:** 1.6 mm
+### PCB Layout
+
+![Single LED PCB Layout](single-led-pcb-layout.png)
+
+### Schematic
+
+![Single LED PCB Schematic](single-led-pcb-schematic.png)
 
 ### Overview
 
