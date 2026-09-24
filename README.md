@@ -98,3 +98,24 @@ Electrical & Electronics Engineering undergraduate interested in:
 - Digital Electronics
 - Hardware Development
 - Low-level Firmware
+- ---
+
+## 03 — Heart-Shaped Decorative LED PCB
+
+**Status:** Work in Progress — PCB Routing  
+**EDA Tool:** KiCad 10.0  
+**Board:** 2-layer PCB  
+**Thickness:** 1.6 mm
+
+### Overview
+
+A custom heart-shaped LED PCB currently under development. The project explores custom board geometry, component placement, and PCB routing using KiCad.
+
+### Current Development
+
+- Custom heart-shaped board outline
+- Component placement
+- PCB routing in progress
+- Design-rule verification to follow
+
+![Heart-Shaped LED PCB — Work in Progress](heart-led-pcb-wip.png)
